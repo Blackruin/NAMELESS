@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #d98d3a;
+}
+
+
+
+html {
+    font-size: 62.5%;
+}
+body {
+    line-height: 1;
+    font-weight: 400;
+    color: #333;
+    background-color: rgba(245, 245, 220, 0.455);
+    font-family: sans-serif;
+   
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 5rem;
+    
+    
+}
+
+.header-fixed {
+    width: 100%;
+    background-color: beige;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 3rem 3rem;
+    height: 6rem;
+    z-index: 1;
+    
+
+    position: fixed;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pg1,
+.pg2,
+.pg3,
+.pg4,
+.pg5,
+.pg7,
+.pg8,
+.pg9
+ {
+    width: 85%;
+}
+
+ol {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.btn1 {
+    background-color: rgb(202, 138, 93);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 10rem;
+    height: 3rem;
+}
+
+.pg1 div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-family: sans-serif;
+}
+
+section {
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+.one,
+.two,
+.three{
+    float: right;
+    position: relative;
+}
+
+.one {
+    z-index: -1;
+    transform: translateX(-20%);
+}
+.two {
+    z-index: 0;
+    transform: translate(30%, -90%);
+    
+}
+.three {
+    z-index: 0.9;
+   transform: translate(-20%, -150%);
+} 
+
+p {
+    padding-bottom: 1rem;
+    color: gray;
+    font-size: 2rem;
+}
+
+.btn2,
+.btn3 {
+     border: none;
+     border-radius: 5px;
+     width: 18rem;
+     height: 4rem;
+     font-weight: 600;
+     font-size: 1.5rem;
+
+}
+
+.btn2 {
+    background-color: rgb(202, 138, 93);
+    color: aliceblue;
+}
+.btn3 {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+mark {
+    color: rgb(202, 138, 93);
+    background-color: transparent;
+}
+
+.logos{
+    margin-right: 3rem;
+}
+
+.pg2
+ div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15rem;
+}
+
+h2{
+    /* width: 100%; */
+    margin-bottom: 7rem;
+}
+
+h3{
+    margin-bottom: 2rem;
+}
+
+strong {
+    font-size: 8rem;
+    color: rgb(202, 202, 202);
+}
+
+.app {
+    width: 250px;
+    height: 450px;
+}
+
+.pg3
+ div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.pg4
+ div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.pg5 div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6rem;
+    
+}
+
+.recipes {
+    box-shadow: 11px 11px 11px rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+}
+
+.recipes p, figure ul, h4 {
+    padding-left: 3rem;
+}
+
+.diet ul {
+    display: grid;
+    gap: 2rem;
+}
+h4 {
+    margin-bottom: 1rem;
+}
+
+figure {
+    border-radius: 1rem;
+    height: 45rem;
+}
+
+.food {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 350px;
+    height: 250px;
+    margin-bottom: 1rem;
+}
+
+small {
+    color: rgb(164, 164, 164);
+}
+
+ul {
+    list-style: none;
+}
+
+.btn4 {
+    border: none;
+    background-color: rgb(41, 159, 59);
+    border-radius: 1rem;
+}
+
+.btn8 {
+    border: none;
+    background-color: rgb(235, 223, 7);
+    border-radius: 1rem;
+}
+
+.btn5 {
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.btn5 a {
+    text-decoration: underline;
+    text-decoration-color: rgb(202, 138, 93);
+}
+
+.pg6 {
+    width: 100%;
+    /* padding-left: 10rem; */
+}
+
+.pg6 div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   gap: 2rem;
+}
+
+.test {
+    width: 60px;
+    height: 60px;
+    border-radius: 4rem;
+    
+}
+
+.left {
+    color: rgb(89, 89, 89);
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.collage {
+    width: 200px;
+    height: 170px;
+    transition: all 2s;
+    overflow: hidden;
+}
+
+.collage:hover {
+    transform: scale(120%, 120%);
+}
+
+.collection div {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.collection div span {
+    position: relative;
+    overflow: hidden;
+}
+.pg7 div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+}
+
+.pg7 span {
+    height: 40rem;
+    width: 30rem;
+    padding: 3rem 1rem;
+}
+
+.pg7 ul {
+    display: grid;
+    gap: 1rem;
+}
+
+.pg7 h3 {
+    text-align: center;
+}
+
+.btn6 {
+    width: 13rem;
+    height: 3rem;
+    padding: auto 1rem;
+    border: none;
+    border-radius: 6px;
+    margin-top: 2rem;
+}
+
+.pg7 p {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.complete {
+    font-size: 1.7rem;
+}
+
+.right {
+    background-color: rgba(168, 122, 66, 0.242);
+}
+
+.pg8 div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.size-6 {
+    width: 4rem;
+    height: 4rem;
+}
+
+.pg9 {
+    background-image: linear-gradient(rgba(213, 166, 37, 0.733), rgba(235, 217, 52, 0.575));
+}
+
+.hello {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/istockphoto-1500848523-612x612.jpg);
+    background-position: center;
+}
+
+.pg9 div {
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+    /* height: 400px; */
+    
+}
+
+.signup {
+    padding: 2rem 3rem;
+}
+
+select {
+    width: 27rem;
+    height: 4rem;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+}
+
+input {
+    width: 27rem;
+    height: 4rem;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+}
+
+.btn7 {
+    width: 27rem;
+    height: 4rem;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 3rem;
+}
+
+.fillpic {
+    float: right;
+}
+
+.a9 div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: transparent;
+}
+
+.pg10 div {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.pg10 {
+    font-size: 1.5rem;
+    color: rgb(136, 135, 135);
+    width: 90%;
+}
+
+
+@media  (max-width: 900px) {
+
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    body {
+        font-size: 1rem;
+        background-color: rgba(245, 245, 220, 0.455);
+        color: rgb(0, 0, 0);
+        font-family: sans-serif;
+       
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        width: 30%;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        margin-bottom: 0.7rem;
+    }
+
+    p {
+        width: 30%;
+        font-size: 1.3rem;
+    }
+
+
+    .pg6 div {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: center;
+       }
+
+    .pg6 div span {
+        width: 60%;
+       }
+
+    .collection div {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: center;
+       }
+
+    .collage {
+        width: 60%;
+       }
+    
+
+    .pg7 div {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: center;
+       }
+
+    .pg7 div span {
+        width: 60%;
+       }
+
+
+
+
+   .pg8 div {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+   }
+
+   .pg8 div span {
+    width: 70%;
+   }
+
+   .size-6 {
+    width: 2rem;
+    height: 2rem;
+   }
+
+   
+        
+
+       
+    }
+
+
+
+
+
